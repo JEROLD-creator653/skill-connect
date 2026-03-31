@@ -9,7 +9,7 @@ import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { toast } from 'sonner';
 import { Video, Clock, CheckCircle, XCircle, Loader2, Calendar } from 'lucide-react';
-import type { Profile } from '@/integrations/supabase/types';
+import type { Profile } from '@/types/database';
 
 interface SessionRow {
   id: string;

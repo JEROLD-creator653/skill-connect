@@ -10,7 +10,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Badge } from '@/components/ui/badge';
 import { toast } from 'sonner';
 import { Zap, Plus, Trash2, BookOpen, GraduationCap } from 'lucide-react';
-import type { UserSkill, SkillLevel, SkillType } from '@/integrations/supabase/types';
+import type { UserSkill, SkillLevel, SkillType } from '@/types/database';
 
 const levelColors: Record<SkillLevel, string> = {
   beginner: 'bg-green-100 text-green-700 border-green-200',

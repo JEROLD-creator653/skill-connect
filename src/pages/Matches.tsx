@@ -10,7 +10,7 @@ import { Progress } from '@/components/ui/progress';
 import { toast } from 'sonner';
 import { Users, RefreshCw, Loader2, ShieldCheck, Video } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import type { UserSkill } from '@/integrations/supabase/types';
+import type { UserSkill } from '@/types/database';
 
 interface MatchedUser {
   id: string;
